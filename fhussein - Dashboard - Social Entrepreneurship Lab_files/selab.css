@@ -6,3 +6,6 @@
 .pages div{
     padding-bottom: .5em;
 }
+.ui.green.button, .ui.green.buttons .button{
+    background-color: #045016;
+}
