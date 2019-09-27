@@ -24,3 +24,9 @@ a {
     background-color: #1c1c1c;
     color: #2199fd;
 }
+
+.ui.attached.header {
+    background: #1c1c1c !important;
+    color: #305d5d !important;
+    border: none !important;
+}
