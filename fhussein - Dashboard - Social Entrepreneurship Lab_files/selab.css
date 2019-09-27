@@ -19,3 +19,8 @@ footer {
 a {
     color: #086bcc;
 }
+
+.ui.menu.three.item .item {
+    background-color: #1c1c1c;
+    color: #2199fd;
+}
