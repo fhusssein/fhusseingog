@@ -17,7 +17,7 @@ footer {
 }
 
 a {
-    color: #2493ff;
+    color: #6fb1f1;
 }
 
 .ui.menu.three.item .item {
@@ -29,4 +29,34 @@ a {
     background: #1c1c1c !important;
     color: #38b5b5 !important;
     border: none !important;
+}
+
+body:not(.full-width) {
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 700px) {
+
+    footer{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      height: 3rem;
+      text-align: center;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+    footer{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      height: 4rem;
+      text-align: center;
+  }
+
+  #main{
+      margin-top: 18rem;
+  }
 }
